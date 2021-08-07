@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Bosque.unity
+    guid: 5636152317474064c9a741f9faf9683c
+  - enabled: 1
+    path: Assets/Scenes/Caos.unity
+    guid: 79a26a49af8f73949b4b5fa0a20601ce
   m_configObjects: {}

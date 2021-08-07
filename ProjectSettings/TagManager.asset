@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Boton
   layers:
   - Default
   - TransparentFX
@@ -38,12 +39,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Ground
-    uniqueID: 3405839285
+  - name: collider
+    uniqueID: 2080533787
+    locked: 0
+  - name: background
+    uniqueID: 2107096987
     locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Camera
-    uniqueID: 3438399745
+  - name: mapa
+    uniqueID: 2635900603
+    locked: 0
+  - name: botones
+    uniqueID: 9550985
     locked: 0

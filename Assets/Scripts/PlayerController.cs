@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     string facing;
     public float speed;
     private Rigidbody2D rbody;
+    public GameObject scripter;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,8 +29,10 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update(){
         //Debug.Log(codeKey());
-        MotionAnimation();
-        Move2();
+        if(!scripter.GetComponent<MapController>().GetMapSelected()){
+            MotionAnimation();
+            Move2();
+        }
         //transform.Translate(Vector3.up);
     }
     private void MotionAnimation() {
